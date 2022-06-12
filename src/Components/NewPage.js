@@ -1,3 +1,4 @@
+import React from 'react'
 import './LandingPage.css';
 import {RiFacebookCircleFill} from "react-icons/ri"
 import {BsPinterest} from "react-icons/bs"
@@ -7,7 +8,7 @@ import{GiRocketThruster} from "react-icons/gi"
 import { IconContext } from "react-icons";
 import Form from "./Form"
 
-function LandingPage() {
+function NewPage() {
   return (
     <div className="landing-page">
 
@@ -38,4 +39,4 @@ function LandingPage() {
   )
 }
 
-export default LandingPage
+export default NewPage

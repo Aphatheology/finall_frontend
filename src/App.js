@@ -1,11 +1,12 @@
 import './App.css';
-import Form from './Components/Form';
+
+import NewPage from './components/NewPage';
 
 function App() {
   return (
     <div className="App">
-      <Form />
-
+        
+        <NewPage />
     </div>
   );
 }

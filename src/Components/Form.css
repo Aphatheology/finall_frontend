@@ -1,78 +1,49 @@
 /* This will contain the styling for the Input and Submit Button */
-.landing-subscribe-form{
-        background-image: url(./image/photo1654990529.jpeg);
-        position: relative;
-        height:85vh;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        margin: auto;
-        padding: 50px;
-        display:block
-}
-.landing-subscribe-form input {
-    display: block;
-    margin: 5px auto;
-    width:50%;
-    height:6%;
-    position: relative;
-    top:50%;
-    border-radius:3px;
-    border:none;
-}
-.landing-subscribe-form input:focus{
-    outline:none;
-}
-.landing-subscribe-form .placeholder{
-    position: absolute;
-}
-.footer-icons{
-    position:absolute;
-    bottom:58px;
-    left:540px
-}
-.bottom-react-icons{
-    font-size: 3rem;
-    padding:10px
-}
-.top-icon{
-    position:absolute;
-    bottom:439px;
-    right:650px;
-    top:50px;
-}
-.top-react-icon{
-    font-size: 5rem;
-}
-.landing-subscribe-form button {
-    background-color: #0000ff;
-    color:white;
-    position:relative;
-    top:51%;
-    font-size:16px;
-    border:none;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    padding: 14px 40px;
-    width:200px;
-    border-radius:3px;
-    cursor: pointer;
-}
-
-.i-icons>*{
-    transform: scale(0.5);
-}
-
-.i-icons>*:hover{
-    cursor: pointer;
-}
-
-.i-icons{
-    position: relative;
-    margin: auto;
-    margin-top: 0px;
+.landing-subscribe-form {
     display: flex;
-    border: none;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    max-width: 500px;
+}
+
+.landing-subscribe-form input {
+    /* display: block;
+    margin: 5px auto; */
+    width: 100%;
+    max-width: 500px;
+    /* height:6%; */
+    /* position: relative;
+    top:50%; */
+    border-radius: 5px;
+    border:none;
+    padding: 20px 10px 10px;
+    color: rgb(12, 12, 212);
+    font-size: 16px;
+    text-align: center;
+}
+
+.landing-subscribe-form input:focus{
+    outline: none;
+}
+
+.landing-subscribe-form input::placeholder{
+    color: rgb(41, 15, 156);
+}
+
+.landing-subscribe-form button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(12, 12, 212);
+    color: white;
+    padding: 15px 50px;
+    max-width: 200px;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.landing-subscribe-form .msg-alert {
+    font-size: 14px;
+    font-weight: bold;
 }
